@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Lanches",
+      "products": [
+        {
+          "productId": 1001,
+          "productName": "X-Udesa",
+          "productDescription": "Pão de brioche X-Udesa 150g, Queijo cheddar, Molho especial, Pepino e Fatias de Bacon.",
+          "productPrice": 32.9,
+          "productImage": "/assets/burger.jpg"
+        }
+      ]
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Bebidas",
+      "products": [
+        {
+          "productId": 2001,
+          "productName": "Coca-Cola 2L",
+          "productDescription": "Refrigerante de dois litros Coca-Cola",
+          "productPrice": 11.9,
+          "productImage": "/assets/cocacola.jpg"
+        }
+      ]
+    }
+  ]
+}

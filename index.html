@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CardapioHUB</title>
+    <title>HUB do Sabor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
@@ -15,7 +17,7 @@
                 <li><i class="fa-solid fa-search"></i></li>
             </ul>
         </nav>
-        <aside style="display: none;">Alala</aside>
+        <aside style="display: none;">sidebar</aside>
     </header>
     
     <main>
@@ -33,7 +35,7 @@
             </div>
         </section>
 
-        <section class="categories-container">
+        <section class="categories-list-container">
             <div>
                 <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
@@ -47,6 +49,31 @@
                 </ul>
             </div>
         </section>
+
+        <section class="categories-container">
+            <div id="category">
+                <p id="category-name">Burguers</p>
+
+                <ul id="category-list">
+                    <li id="product-card">
+                        <img id="product-image" src="assets/burger.jpg" alt="">
+                        <p id="product-name">X-Udesa</p>
+                        <p id="product-description">Pão de brioche X-Udesa 150g, Queijo cheddar, Molho especial, Pepino e Fatias de Bacon.</p>
+                        <p id="product-price">32.90</p>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por:</p>
+            <a href="https://github.com/Fabinzz">Fabio</a>
+            <p>e</p>
+            <a href="https://github.com/SwiftOneLy">Felippe</a>
+        </footer>
+
     </main>
+    <script src="js/app.js"></script>
 </body>
 </html>
